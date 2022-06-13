@@ -5,8 +5,9 @@
 + HTML -> 60%
 + CSS -> 30%
 + JavaScript -> 10%
+
 ## Code sample:
-```json
+```
 var alphabet = "abcdefghijklmnopqrstuvwxyz";
 var randomString = ""
 while (randomString.length < 10) {
@@ -15,8 +16,10 @@ while (randomString.length < 10) {
 }
 console.log(randomString);
 ```
+
 ## Education:
 Sevastopol National Technical University
+
 ## Languages:
 + Russian - native
 + Ukrainian - advanced
