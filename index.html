@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CV A.Zarapin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="pos">
+            <img src="assets/img/avatar.jpeg" alt="portrait">
+            <h1>Alexey Zarapin</h1>
+            <h2>Pre-junior frontend web developer</h2>
+            <nav>
+                <ul>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#contact">Contact info</a></li>
+                    <li><a href="#expertise">Expertise</a></li>
+                    <li><a href="#code">Code sample</a></li>
+                    <li><a href="#education">Education & languages</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main id="tableContainer">
+        <div id="tableRow">
+            <section id="leftSide">
+                <h2 id="about">About me</h2>
+                <p>Until recently, I worked as a leading lawyer. However, the current times have contributed to a change in the field of activity and now I want to become a web developer.</p>
+            </section>
+            <section id="rightSide">
+                <h2 id="contact">Contact info</h2>
+                <ul>
+                    <li>alexey.zarapin@gmail.com</li>
+                    <li>+7 915 034 1036</li>
+                    <li>Odintsovo, Russia</li>
+                </ul>
+            </section>
+        </div>
+        <div id="tableRow">
+            <section id="leftSide">
+                <h2 id="expertise">Expertise</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </section>
+            <section id="rightSide">
+                <h2 id="code">Code sample</h2>
+                <code>
+                var alphabet = "abcdefghijklmnopqrstuvwxyz";<br>
+                var randomString = ""<br>
+                while (randomString.length < 10) {<br>
+                &nbsp&nbsp&nbsp&nbsprandomString += alphabet[Math.floor(Math.random() * alphabet.length)];<br>
+                &nbsp&nbsp&nbsp&nbsprandomString.length++;<br>
+                }<br>
+                console.log(randomString);
+                </code>
+            </section>
+        </div>
+        <div id="tableRow">
+            <section id="leftSide">
+                <h2 id="education">Education & languages</h2>
+                <p>Sevastopol National Technical University</p>
+                <ul>
+                    <li>Russian - native</li>
+                    <li>Ukrainian - advanced</li>
+                    <li>English - A2</li>
+                </ul>
+            </section>
+
+            <section id="rightSide">
+                <h2 id="projects">Projects</h2>
+                <p>Ongoing project <a href="https://github.com/Golt1327/rsschool-cv/tree/gh-pages">Curriculum vitae</a></p>
+            </section>            
+        </div>
+    </main>
+    <footer>
+        <div id="pos">
+            <ul>
+                <li><a href="https://github.com/Golt1327">My GitHub</a></li>
+                <li>&copy 2022</li>
+                <li><img id="logo" src="assets/img/rs_school_logo.svg" alt="logotype"></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
